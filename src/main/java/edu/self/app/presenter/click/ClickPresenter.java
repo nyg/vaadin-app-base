@@ -1,12 +1,12 @@
-package edu.self.mcl.presenter.click;
+package edu.self.app.presenter.click;
 
 import java.util.logging.Logger;
 
 import javax.inject.Inject;
 
-import edu.self.mcl.business.simple.SimpleService;
-import edu.self.mcl.presenter.Presenter;
-import edu.self.mcl.view.click.ClickView;
+import edu.self.app.business.simple.SimpleService;
+import edu.self.app.presenter.Presenter;
+import edu.self.app.view.click.ClickView;
 
 public class ClickPresenter extends Presenter<ClickView> {
 

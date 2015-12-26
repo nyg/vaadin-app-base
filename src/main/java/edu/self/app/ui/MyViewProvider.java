@@ -1,8 +1,8 @@
-package edu.self.mcl.ui;
+package edu.self.app.ui;
 
 import com.vaadin.cdi.CDIViewProvider;
 
-import edu.self.mcl.view.click.ClickView;
+import edu.self.app.view.click.ClickView;
 
 public class MyViewProvider extends CDIViewProvider {
 

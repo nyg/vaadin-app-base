@@ -1,4 +1,4 @@
-package edu.self.mcl.ui;
+package edu.self.app.ui;
 
 import javax.inject.Inject;
 
@@ -12,7 +12,7 @@ import com.vaadin.ui.VerticalLayout;
 
 @CDIUI("")
 @Theme("mytheme")
-@Widgetset("edu.self.mcl.MyAppWidgetset")
+@Widgetset("edu.self.app.MyAppWidgetset")
 public class MyUI extends UI {
 
     private static final long serialVersionUID = 1L;

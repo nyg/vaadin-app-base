@@ -12,6 +12,8 @@
         <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
 
         <jee.version>6.0</jee.version>
+        <servlet.version>3.0.1</servlet.version>
+        
         <vaadin.version>7.5.10</vaadin.version>
         <vaadin.plugin.version>${vaadin.version}</vaadin.plugin.version>
         <vaadin.cdi.version>1.0.3</vaadin.cdi.version>
@@ -38,7 +40,7 @@
         <dependency>
             <groupId>javax.servlet</groupId>
             <artifactId>javax.servlet-api</artifactId>
-            <version>3.0.1</version>
+            <version>${servlet.version}</version>
             <scope>provided</scope>
         </dependency>
 

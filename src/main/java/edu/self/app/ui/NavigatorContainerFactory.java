@@ -1,4 +1,4 @@
-package edu.self.mcl.ui;
+package edu.self.app.ui;
 
 import java.util.logging.Logger;
 
@@ -9,7 +9,7 @@ import com.vaadin.ui.Panel;
 import com.vaadin.ui.SingleComponentContainer;
 import com.vaadin.ui.UI;
 
-import edu.self.mcl.view.error.ErrorView;
+import edu.self.app.view.error.ErrorView;
 
 /**
  * Just to avoid having the Navigator or the CDIViewProvider in MyUI.

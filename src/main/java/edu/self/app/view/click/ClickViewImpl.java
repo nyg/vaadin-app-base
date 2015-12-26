@@ -1,4 +1,4 @@
-package edu.self.mcl.view.click;
+package edu.self.app.view.click;
 
 import java.util.logging.Logger;
 
@@ -12,7 +12,7 @@ import com.vaadin.ui.CustomComponent;
 import com.vaadin.ui.Label;
 import com.vaadin.ui.VerticalLayout;
 
-import edu.self.mcl.presenter.click.ClickPresenter;
+import edu.self.app.presenter.click.ClickPresenter;
 
 @CDIView(ClickView.VIEW_NAME)
 public class ClickViewImpl extends CustomComponent implements ClickView {
@@ -29,7 +29,7 @@ public class ClickViewImpl extends CustomComponent implements ClickView {
     @PostConstruct
     private void postConstruct() {
 
-        logger.info("Click view instance: " + this);
+        logger.info("Click view instance: " + super.toString());
         logger.info("Presenter instance: " + presenter);
         presenter.setView(this);
 

@@ -1,4 +1,4 @@
-package edu.self.mcl.business.simple;
+package edu.self.app.business.simple;
 
 import javax.ejb.Stateless;
 

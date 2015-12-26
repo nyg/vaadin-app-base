@@ -1,4 +1,4 @@
-package edu.self.mcl.view.error;
+package edu.self.app.view.error;
 
 import com.vaadin.navigator.View;
 

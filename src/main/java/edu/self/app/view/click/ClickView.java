@@ -1,4 +1,4 @@
-package edu.self.mcl.view.click;
+package edu.self.app.view.click;
 
 import com.vaadin.navigator.View;
 

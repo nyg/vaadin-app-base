@@ -1,4 +1,4 @@
-package edu.self.mcl.presenter;
+package edu.self.app.presenter;
 
 public class Presenter<T> {
 
