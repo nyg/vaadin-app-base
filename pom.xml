@@ -4,7 +4,7 @@
     <modelVersion>4.0.0</modelVersion>
 
     <groupId>edu.self</groupId>
-    <artifactId>vaadin-app-base</artifactId>
+    <artifactId>vaadin-base-app</artifactId>
     <version>1.0-SNAPSHOT</version>
     <packaging>war</packaging>
 
